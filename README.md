@@ -1,7 +1,8 @@
 Chkey helps you have a keyboard ith cheap CH340G USB chip arduinos, should work witth anything, on windows!
 Instructions:
 - uplaod the sketch to arduino
-- chekc your com port
+- chekc your com port in arduino app
+- open the serial monitor in arduino, chekc if serial works fine (if you don't do this setp it wont work)
 - oppen command window in the chkey folder (shift-right click, oppen command window here)
 - run chkey, ctrl-c to quit
 CHKEY USAGE: chkey [comport] [vkey1] [vkey2] [vkey3]

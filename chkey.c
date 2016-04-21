@@ -80,7 +80,7 @@ if (hComm == INVALID_HANDLE_VALUE)
         if (buf[0]=='E') {k=b;state=KEYEVENTF_KEYUP;}
 
         if (buf[0]=='C') {k=c;state=0;}
-        if (buf[0]=='D') {k=c;state=KEYEVENTF_KEYUP;}
+        if (buf[0]=='F') {k=c;state=KEYEVENTF_KEYUP;}
 
         keybd_event(k,MapVirtualKey(k,0),state,0);
         printf("Got char %c (%02X), %s button %02X\n",buf[0],buf[0],state?"releasing":"pressing",k);
