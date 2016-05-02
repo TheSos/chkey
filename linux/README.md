@@ -39,3 +39,18 @@ You need libxtst and cmake.  so if those are not present yet, install them:
 * cmake ..
 * make
 
+Troubleshooting
+===============
+
+To use the precompiled version you might need to make it executable:
+
+* chmod a+x controller
+
+
+If there is an error like "bad descriptor" you might not have the kernel driver for ch940g installed:
+
+* Download http://www.wch.cn/download/CH341SER_LINUX_ZIP.html
+* unzip
+* make
+* sudo make load
+* maybe you need to restart!?!
