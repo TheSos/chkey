@@ -31,8 +31,8 @@ Building
 ========
 
 You need libxtst and cmake.  so if those are not present yet, install them:
-sudo apt-get install libxtst-dev cmake
 
+* sudo apt-get install libxtst-dev cmake
 * cd linux
 * mkdir t
 * cd t
