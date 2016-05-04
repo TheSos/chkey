@@ -30,9 +30,9 @@ There is a compiled version in the repositiory (linux/controller)
 Building
 ========
 
-You need libxtst and cmake.  so if those are not present yet, install them:
+You need libxtst. if this is not present yet, install it:
 
-* sudo apt-get install libxtst-dev cmake
+* sudo apt-get install libxtst-dev
 * cd linux
 * mkdir t
 * cd t
@@ -47,7 +47,12 @@ To use the precompiled version you might need to make it executable:
 * chmod a+x controller
 
 
-If there is an error like "bad descriptor" you might not have the kernel driver for ch940g installed:
+If there is an error like "bad descriptor":
+
+1) you might have used the wrong serial-port (/dev/ttyUSB0 or /dev/ttyUSB1) check in the arduino-ide (TOOL>SERIAL_PORT) 
+
+
+2) you might not have the kernel driver for ch940g installed:
 
 * Download http://www.wch.cn/download/CH341SER_LINUX_ZIP.html
 * unzip
