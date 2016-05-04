@@ -12,3 +12,5 @@ VKey table here: https://msdn.microsoft.com/en-us/library/windows/desktop/dd3757
 31(v=vs.85).aspx
 
 i mad this in an hour, sorry.
+
+There is a linux version. For more instructions go to the linux-folder
